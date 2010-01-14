@@ -1,0 +1,57 @@
+/*
+* Copyright (c) 2005 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:     Project file for TtsHwDeviceStub.
+*
+*/
+
+
+
+
+#include <platform_paths.hrh>
+
+#if defined( WINS ) || defined( WINSCW )
+TARGET            asrsttshwdevice.dll
+#else
+TARGET            asrsttshwdevice_stub.dll
+#endif
+
+TARGETTYPE        DLL
+UID               0x1000008D 0x101F8CA5
+
+VENDORID          VID_DEFAULT
+
+USERINCLUDE       . ../inc
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+APP_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE     ../../common/inc
+SYSTEMINCLUDE     ../../common/src
+
+SOURCEPATH        ../src
+SOURCE            asrsttshwdevice.cpp
+
+SOURCEPATH        ../../common/src
+SOURCE            asrshwdevice.cpp
+
+LIBRARY           euser.lib
+
+// Users link against the non-stub name, so that rebuild is not necessary
+EXPORTLIBRARY     asrsttshwdevice.lib
+
+// On ROM dll name is without the _stub part so that it can easily be
+// replaced with the real dll
+LINKAS            asrsttshwdevice.dll
+
+CAPABILITY        CAP_GENERAL_DLL

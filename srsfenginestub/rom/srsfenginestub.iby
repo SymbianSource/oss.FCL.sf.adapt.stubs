@@ -1,0 +1,36 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:   
+*
+*/
+
+
+
+#ifndef __SRSFENGINESTUB_IBY__
+#define __SRSFENGINESTUB_IBY__
+
+#ifdef __SIND
+
+file=ABI_DIR\BUILD_DIR\asrsadaptationhwdevice_stub.dll        SHARED_LIB_DIR\asrsadaptationhwdevice.dll
+file=ABI_DIR\BUILD_DIR\asrsgrcompilerhwdevice_stub.dll        SHARED_LIB_DIR\asrsgrcompilerhwdevice.dll
+file=ABI_DIR\BUILD_DIR\asrsrecognitionhwdevice_stub.dll       SHARED_LIB_DIR\asrsrecognitionhwdevice.dll
+file=ABI_DIR\BUILD_DIR\asrsttphwdevice_stub.dll               SHARED_LIB_DIR\asrsttphwdevice.dll
+file=ABI_DIR\BUILD_DIR\asrsttshwdevice_stub.dll               SHARED_LIB_DIR\asrsttshwdevice.dll
+file=ABI_DIR\BUILD_DIR\asrsvocmanhwdevice_stub.dll            SHARED_LIB_DIR\asrsvocmanhwdevice.dll
+// New addition starting from 3.1
+file=ABI_DIR\BUILD_DIR\asrsnlphwdevice_stub.dll               SHARED_LIB_DIR\asrsnlphwdevice.dll
+
+#endif // __SIND
+
+#endif // __SRSFENGINESTUB_IBY__

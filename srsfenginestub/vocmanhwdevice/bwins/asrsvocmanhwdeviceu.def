@@ -1,0 +1,12 @@
+EXPORTS
+	??1CASRSHwDevice@@UAE@XZ @ 1 NONAME ; CASRSHwDevice::~CASRSHwDevice(void)
+	??1CASRSVocManHwDevice@@UAE@XZ @ 2 NONAME ; CASRSVocManHwDevice::~CASRSVocManHwDevice(void)
+	?AdaptL@CASRSVocManHwDevice@@QAEXEAAVCSIRule@@@Z @ 3 NONAME ; void CASRSVocManHwDevice::AdaptL(unsigned char, class CSIRule &)
+	?Clear@CASRSHwDevice@@UAEXXZ @ 4 NONAME ; void CASRSHwDevice::Clear(void)
+	?ComputeNRuleVariantsL@CASRSVocManHwDevice@@QAEXABVCSIGrammar@@KKABV?$RArray@I@@AAV3@AAK@Z @ 5 NONAME ; void CASRSVocManHwDevice::ComputeNRuleVariantsL(class CSIGrammar const &, unsigned long, unsigned long, class RArray<unsigned int> const &, class RArray<unsigned int> &, unsigned long &)
+	?CustomInterface@CASRSHwDevice@@UAEPAXVTUid@@@Z @ 6 NONAME ; void * CASRSHwDevice::CustomInterface(class TUid)
+	?InitializeL@CASRSHwDevice@@UAEXXZ @ 7 NONAME ; void CASRSHwDevice::InitializeL(void)
+	?NewL@CASRSHwDevice@@SAPAV1@XZ @ 8 NONAME ; class CASRSHwDevice * CASRSHwDevice::NewL(void)
+	?NewL@CASRSVocManHwDevice@@SAPAV1@XZ @ 9 NONAME ; class CASRSVocManHwDevice * CASRSVocManHwDevice::NewL(void)
+	?Prune@CASRSVocManHwDevice@@QAEHABVCSIGrammar@@KAAV?$RArray@VTSIRuleVariantInfo@@@@@Z @ 10 NONAME ; int CASRSVocManHwDevice::Prune(class CSIGrammar const &, unsigned long, class RArray<class TSIRuleVariantInfo> &)
+

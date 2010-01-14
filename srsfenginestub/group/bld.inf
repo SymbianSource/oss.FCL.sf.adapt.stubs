@@ -1,0 +1,40 @@
+/*
+* Copyright (c) 2004-2005 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:     Project file for all SRSF hardware device stubs.
+*
+*/
+
+
+
+
+
+#include <platform_paths.hrh>
+#include "srsfenginestubbldvariant.hrh"
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+../rom/srsfenginestub.iby  CORE_IBY_EXPORT_PATH(stubs, srsfenginestub.iby)
+
+PRJ_MMPFILES
+../grcompilerhwdevice/group/asrsgrcompilerhwdevicestub.mmp
+../ttphwdevice/group/asrsttphwdevicestub.mmp
+../recognitionhwdevice/group/asrsrecognitionhwdevicestub.mmp
+../adaptationhwdevice/group/asradaptationhwdevicestub.mmp
+../vocmanhwdevice/group/asrvocmanhwdevicestub.mmp
+../ttshwdevice/group/ttshwdevicestub.mmp
+../nlphwdevice/group/asrsnlphwdevicestub.mmp
+
+// End of File

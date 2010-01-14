@@ -1,0 +1,14 @@
+EXPORTS
+	??1CASRSAdaptHwDevice@@UAE@XZ @ 1 NONAME ; CASRSAdaptHwDevice::~CASRSAdaptHwDevice(void)
+	??1CASRSHwDevice@@UAE@XZ @ 2 NONAME ; CASRSHwDevice::~CASRSHwDevice(void)
+	?CancelAdaptation@CASRSAdaptHwDevice@@QAEXXZ @ 3 NONAME ; void CASRSAdaptHwDevice::CancelAdaptation(void)
+	?Clear@CASRSAdaptHwDevice@@UAEXXZ @ 4 NONAME ; void CASRSAdaptHwDevice::Clear(void)
+	?Clear@CASRSHwDevice@@UAEXXZ @ 5 NONAME ; void CASRSHwDevice::Clear(void)
+	?CustomInterface@CASRSAdaptHwDevice@@UAEPAXVTUid@@@Z @ 6 NONAME ; void * CASRSAdaptHwDevice::CustomInterface(class TUid)
+	?CustomInterface@CASRSHwDevice@@UAEPAXVTUid@@@Z @ 7 NONAME ; void * CASRSHwDevice::CustomInterface(class TUid)
+	?InitializeL@CASRSAdaptHwDevice@@UAEXXZ @ 8 NONAME ; void CASRSAdaptHwDevice::InitializeL(void)
+	?InitializeL@CASRSHwDevice@@UAEXXZ @ 9 NONAME ; void CASRSHwDevice::InitializeL(void)
+	?NewL@CASRSAdaptHwDevice@@SAPAV1@AAVMASRAdaptationHwDeviceObserver@@@Z @ 10 NONAME ; class CASRSAdaptHwDevice * CASRSAdaptHwDevice::NewL(class MASRAdaptationHwDeviceObserver &)
+	?NewL@CASRSHwDevice@@SAPAV1@XZ @ 11 NONAME ; class CASRSHwDevice * CASRSHwDevice::NewL(void)
+	?StartAdaptationL@CASRSAdaptHwDevice@@QAEXABVTDesC8@@AAVCSIModelBank@@AAVCSIPronunciation@@W4TLanguage@@@Z @ 12 NONAME ; void CASRSAdaptHwDevice::StartAdaptationL(class TDesC8 const &, class CSIModelBank &, class CSIPronunciation &, enum TLanguage)
+
