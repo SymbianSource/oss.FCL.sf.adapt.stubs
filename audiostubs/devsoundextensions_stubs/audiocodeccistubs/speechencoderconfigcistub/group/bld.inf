@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-SpeechEncoderConfigCIStub.mmp
+speechencoderconfigcistub.mmp
 
 //  End of File  

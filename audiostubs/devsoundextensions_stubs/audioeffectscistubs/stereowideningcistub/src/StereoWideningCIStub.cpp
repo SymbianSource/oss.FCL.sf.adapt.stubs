@@ -19,7 +19,7 @@
 #ifdef _DEBUG
 #include <e32svr.h>
 #endif
-#include "StereoWideningCI.h"
+#include "stereowideningci.h"
 
 
 EXPORT_C CStereoWideningCI* CStereoWideningCI::NewL(

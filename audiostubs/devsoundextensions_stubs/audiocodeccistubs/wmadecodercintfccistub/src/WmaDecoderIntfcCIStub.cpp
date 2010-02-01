@@ -18,7 +18,7 @@
 
 
 // INCLUDE FILES
-#include "WmaDecoderIntfcCI.h"
+#include "wmadecoderintfcci.h"
 #include <e32debug.h>
 
 // EXTERNAL DATA STRUCTURES

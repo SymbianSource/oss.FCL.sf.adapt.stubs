@@ -28,7 +28,7 @@ VENDORID 	VID_DEFAULT
 
 
 SOURCEPATH      ../src
-SOURCE          LoudnessCIStub.cpp 
+SOURCE          loudnesscistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

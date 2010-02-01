@@ -29,7 +29,7 @@ VENDORID 	VID_DEFAULT
 
 
 SOURCEPATH      ../src
-SOURCE          StereoWideningCIStub.cpp 
+SOURCE          stereowideningcistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

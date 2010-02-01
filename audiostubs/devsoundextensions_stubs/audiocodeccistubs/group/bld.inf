@@ -19,7 +19,7 @@
 
 #include "../aacdecoderconfigcistub/group/bld.inf"
 //#include "../audiovibracontrolcistub/group/bld.inf" //Audio vibra Control API is deprecated
-#include "../eaacplusdecoderintfccistub/Group/bld.inf"
+#include "../eaacplusdecoderintfccistub/group/bld.inf"
 #include "../errorconcealmentintfccistub/group/bld.inf"
 #include "../g711decoderintfccistub/group/bld.inf"
 #include "../g711encoderintfccistub/group/bld.inf"
@@ -27,9 +27,9 @@
 #include "../g729encoderintfccistub/group/bld.inf"
 #include "../ilbcdecoderintfccistub/group/bld.inf"
 #include "../ilbcencoderintfccistub/group/bld.inf"
-#include "../sbcencoderintfccistub/Group/bld.inf"
+#include "../sbcencoderintfccistub/group/bld.inf"
 #include "../speechencoderconfigcistub/group/bld.inf"
-#include "../ra8decoderintfccistub/Group/bld.inf"
+#include "../ra8decoderintfccistub/group/bld.inf"
 #include "../wmadecodercintfccistub/group/bld.inf"
 
 //  End of File

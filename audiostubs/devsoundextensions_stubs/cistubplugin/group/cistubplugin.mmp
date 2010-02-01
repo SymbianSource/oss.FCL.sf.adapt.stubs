@@ -43,7 +43,7 @@ LIBRARY			AudioInputCI.lib
 SOURCEPATH	  	../src
 
 SOURCE		  	cistubplugin.cpp
-SOURCE 			cistubpluginMain.cpp
+SOURCE 			cistubpluginmain.cpp
 
 SOURCEPATH	  	../data
 START RESOURCE 	cistubplugin.rss

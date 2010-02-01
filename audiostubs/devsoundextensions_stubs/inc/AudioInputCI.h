@@ -15,7 +15,7 @@
 *
 */
 
-#include "AudioInput.h"
+#include "audioinput.h"
 
 class CMMFDevSound;
 

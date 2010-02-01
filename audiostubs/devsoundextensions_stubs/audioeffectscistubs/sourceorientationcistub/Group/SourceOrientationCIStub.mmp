@@ -29,7 +29,7 @@ CAPABILITY CAP_GENERAL_DLL
 
 
 SOURCEPATH      ../src
-SOURCE          SourceOrientationCIStub.cpp 
+SOURCE          sourceorientationcistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

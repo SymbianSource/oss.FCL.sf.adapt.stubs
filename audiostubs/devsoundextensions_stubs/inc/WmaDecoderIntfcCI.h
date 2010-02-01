@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <WmaDecoderIntfc.h>
+#include <wmadecoderintfc.h>
 
 // CONSTANTS
 

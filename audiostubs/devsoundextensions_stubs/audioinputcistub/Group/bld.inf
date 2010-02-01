@@ -21,6 +21,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-AudioInputCIStub.mmp
+audioinputcistub.mmp
 
 //  End of File  

@@ -18,7 +18,7 @@
 
 // INCLUDE FILES
 #include <e32debug.h>
-#include "SbcEncoderIntfcCI.h"
+#include "sbcencoderintfcci.h"
 
 // EXTERNAL DATA STRUCTURES
 

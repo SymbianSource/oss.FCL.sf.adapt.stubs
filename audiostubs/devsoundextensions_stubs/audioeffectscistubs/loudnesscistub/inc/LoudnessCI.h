@@ -17,8 +17,8 @@
 */
 
 
-#include <LoudnessBase.h>
-#include <MLoudnessObserver.h>
+#include <loudnessbase.h>
+#include <mloudnessobserver.h>
 
 class CMMFDevSound;
 

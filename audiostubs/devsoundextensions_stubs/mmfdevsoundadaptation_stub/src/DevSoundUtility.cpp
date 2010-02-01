@@ -25,7 +25,7 @@
 #include <mmfplugininterfaceuids.hrh>
 #include <mmf/common/mmfcontroller.h> //needed for CleanupResetAndDestroyPushL()
 #include <fixedsequence.rsg>
-#include "DevSoundUtility.h"
+#include "devsoundutility.h"
 
 _LIT(KFixedSequenceResourceFile, "Z:\\Resource\\DevSound\\FixedSequence.rsc");
 

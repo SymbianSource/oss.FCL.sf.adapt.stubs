@@ -24,6 +24,6 @@ PRJ_EXPORTS
 
 PRJ_MMPFILES
 
-EAacPlusDecoderIntfcCIStub.mmp
+eaacplusdecoderintfccistub.mmp
 
 //  End of File

@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-SbcEncoderIntfcCIStub.mmp
+sbcencoderintfccistub.mmp
 
 //  End of File

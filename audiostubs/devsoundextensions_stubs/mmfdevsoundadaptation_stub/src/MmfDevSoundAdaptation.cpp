@@ -18,8 +18,8 @@
 
 
 // INCLUDE FILES
-#include <MmfDevSoundAdaptation.h>
-#include "MmfDevSoundAdaptationBody.h"
+#include <mmfdevsoundadaptation.h>
+#include "mmfdevsoundadaptationbody.h"
 
 // ============================ MEMBER FUNCTIONS ===============================
 

@@ -20,8 +20,8 @@
 #include <e32svr.h> // Needed for RDebug Prints
 #endif
 #include <e32def.h>
-#include "RestrictedAudioOutputCIStub.h"
-#include <RestrictedAudioOutputProxy.h>
+#include "restrictedaudiooutputcistub.h"
+#include <restrictedaudiooutputproxy.h>
 
 // -----------------------------------------------------------------------------
 // CRestrictedAudioOutput::NewL

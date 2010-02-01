@@ -20,7 +20,7 @@
 #include <e32svr.h> // Needed for RDebug Prints
 #endif
 
-#include "ListenerDopplerCI.h"
+#include "listenerdopplerci.h"
 #include <sounddevice.h>
 
 // -----------------------------------------------------------------------------

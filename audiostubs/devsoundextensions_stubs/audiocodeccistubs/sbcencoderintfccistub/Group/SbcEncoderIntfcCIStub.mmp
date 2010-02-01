@@ -13,7 +13,7 @@
 *
 * Description: Audio Stubs -  Project specification for BT SBC Encoder configuration custom
 *              : interface stub implementation.
-*  Version     : %version: bh1mmcf#10 %
+*  Version     : %version: bh1mmcf#9 %
 *
 */
 
@@ -28,7 +28,7 @@ CAPABILITY      CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          SbcEncoderIntfcCIStub.cpp
+SOURCE          sbcencoderintfccistub.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

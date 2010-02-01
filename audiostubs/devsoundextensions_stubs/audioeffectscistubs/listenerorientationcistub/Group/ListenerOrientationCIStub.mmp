@@ -29,7 +29,7 @@ CAPABILITY CAP_GENERAL_DLL
 
 
 SOURCEPATH      ../src
-SOURCE          ListenerOrientationCIStub.cpp 
+SOURCE          listenerorientationcistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

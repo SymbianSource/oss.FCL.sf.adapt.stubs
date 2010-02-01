@@ -20,7 +20,7 @@
 #include <e32svr.h> // Needed for RDebug Prints
 #endif
 
-#include "SourceLocationCI.h"
+#include "sourcelocationci.h"
 #include <sounddevice.h>
 
 // -----------------------------------------------------------------------------

@@ -23,10 +23,10 @@
 //  INCLUDES
 #include <e32base.h>
 #include <mmfhwdevice.h>
-#include <MmfDevSoundAdaptation.h>
+#include <mmfdevsoundadaptation.h>
 //#include <MdaSound.h>
-#include "ToneGenerator.h"
-#include "DevSoundUtility.h"
+#include "tonegenerator.h"
+#include "devsoundutility.h"
 
 
 // CONSTANTS

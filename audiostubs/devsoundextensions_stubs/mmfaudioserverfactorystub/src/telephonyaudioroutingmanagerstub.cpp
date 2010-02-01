@@ -16,7 +16,7 @@
 *
 */
 
-#include <TelephonyAudioRoutingManager.h>
+#include <telephonyaudioroutingmanager.h>
 
 #include "devsoundextensionstubs_common.h"
 #include "telephonyaudioroutingmanagerstub.h"

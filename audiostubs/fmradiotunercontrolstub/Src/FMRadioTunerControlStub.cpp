@@ -21,7 +21,7 @@
 
 // INCLUDE FILES
 #include 	<e32svr.h>
-#include    "FMRadioTunerControlStub.h"
+#include    "fmradiotunercontrolstub.h"
 
 // CONSTANTS
 const TInt KReqTunerOn				= 1;

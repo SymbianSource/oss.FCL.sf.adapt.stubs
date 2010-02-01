@@ -19,7 +19,7 @@
 #ifdef _DEBUG
 #include <e32svr.h>
 #endif
-#include "LoudnessCI.h"
+#include "loudnessci.h"
 
 
 EXPORT_C CLoudnessCI* CLoudnessCI::NewL(

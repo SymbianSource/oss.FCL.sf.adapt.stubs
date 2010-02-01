@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <ErrorConcealmentIntfc.h>
+#include <errorconcealmentintfc.h>
 
 // CONSTANTS
 

@@ -23,8 +23,8 @@
 
 //  INCLUDES
 #include <e32base.h>
-#include <FMRadioTunerControl.h>
-#include <RadioRdsControl.h>
+#include <fmradiotunercontrol.h>
+#include <radiordscontrol.h>
 
 // FORWARD DECLARATIONS
 class CTuner;

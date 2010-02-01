@@ -12,7 +12,7 @@
 * Contributors:
 *
 * Description: Audio Stubs -   
-*  Version     : %version: bh1mmcf#14 %
+*  Version     : %version: bh1mmcf#13 %
 *
 */
 
@@ -27,7 +27,7 @@ CAPABILITY CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          SpeechEncoderConfigCIStub.cpp
+SOURCE          speechencoderconfigcistub.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

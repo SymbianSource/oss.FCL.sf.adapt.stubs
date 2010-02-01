@@ -29,7 +29,7 @@ VENDORID 	VID_DEFAULT
 
 
 SOURCEPATH      ../src
-SOURCE          DistanceAttenuationCIStub.cpp 
+SOURCE          distanceattenuationcistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

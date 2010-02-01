@@ -12,7 +12,7 @@
 * Contributors:
 *
 * Description: Audio Stubs -   
-*  Version     : %version: bh1mmcf#14 %
+*  Version     : %version: bh1mmcf#13 %
 *
 */
 
@@ -28,7 +28,7 @@ VENDORID        VID_DEFAULT
 
 
 SOURCEPATH      ../src
-SOURCE          G729EncoderIntfcCIStub.cpp
+SOURCE          g729encoderintfccistub.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

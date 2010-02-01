@@ -49,7 +49,7 @@ SYSTEMINCLUDE   /epoc32/include/ecom
 
 
 SOURCEPATH      ../data
-START RESOURCE 10207ABC.rss
+START RESOURCE 10207abc.rss
 	TARGET mmfaudioserverfactorystub.rsc
 END
 

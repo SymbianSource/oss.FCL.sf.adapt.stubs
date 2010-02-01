@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <AddedDevSoundControlCI.h>
+#include <addeddevsoundcontrolci.h>
 
 // CONSTANTS
 

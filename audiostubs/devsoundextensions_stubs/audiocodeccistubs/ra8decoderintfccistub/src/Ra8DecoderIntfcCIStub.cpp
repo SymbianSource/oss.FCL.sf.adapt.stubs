@@ -18,7 +18,7 @@
 
 // INCLUDE FILES
 #include <e32debug.h>
-#include "Ra8CustomInterfaceCI.h"
+#include "ra8custominterfaceci.h"
 
 // EXTERNAL DATA STRUCTURES
 

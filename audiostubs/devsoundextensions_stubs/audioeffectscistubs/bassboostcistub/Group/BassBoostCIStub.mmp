@@ -28,7 +28,7 @@ CAPABILITY CAP_GENERAL_DLL
 
 
 SOURCEPATH      ../src
-SOURCE          BassBoostCIStub.cpp 
+SOURCE          bassboostcistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

@@ -20,7 +20,7 @@
 #include <e32svr.h> // Needed for RDebug Prints
 #endif
 
-#include "BassBoostCI.h"
+#include "bassboostci.h"
 #include <sounddevice.h>
 
 // -----------------------------------------------------------------------------

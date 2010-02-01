@@ -23,6 +23,6 @@ PRJ_EXPORTS
 
 PRJ_MMPFILES
 
-WmaDecoderintfcStub.mmp
+wmadecoderintfcstub.mmp
 
 //  End of File  

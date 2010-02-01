@@ -20,7 +20,7 @@
 #include <e32svr.h> // Needed for RDebug Prints
 #endif
 
-#include "ListenerOrientationCI.h"
+#include "listenerorientationci.h"
 #include <sounddevice.h>
 
 // -----------------------------------------------------------------------------

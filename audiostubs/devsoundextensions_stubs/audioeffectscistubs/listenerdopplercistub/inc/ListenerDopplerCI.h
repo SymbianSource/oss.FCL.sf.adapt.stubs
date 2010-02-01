@@ -22,8 +22,8 @@
 */
 
 
-#include <ListenerDopplerBase.h>
-#include <MListenerDopplerObserver.h>
+#include <listenerdopplerbase.h>
+#include <mlistenerdopplerobserver.h>
 
 class CMMFDevSound;
 

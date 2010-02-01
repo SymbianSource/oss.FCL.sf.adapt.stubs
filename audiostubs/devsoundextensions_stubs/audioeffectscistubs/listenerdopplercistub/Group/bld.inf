@@ -23,6 +23,6 @@ PRJ_EXPORTS
 
 
 PRJ_MMPFILES
-ListenerDopplerCIStub.mmp
+listenerdopplercistub.mmp
 
 //  End of File  

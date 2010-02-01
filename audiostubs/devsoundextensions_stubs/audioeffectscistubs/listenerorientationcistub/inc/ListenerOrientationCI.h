@@ -22,8 +22,8 @@
 */
 
 
-#include <ListenerOrientationBase.h>
-#include <MListenerOrientationObserver.h>
+#include <listenerorientationbase.h>
+#include <mlistenerorientationobserver.h>
 
 class CMMFDevSound;
 

@@ -25,4 +25,4 @@ PRJ_EXPORTS
 ../data/sample1.wav	/Epoc32/winscw/c/sample1.wav
 
 PRJ_MMPFILES
-./MmfDevSoundAdaptation.mmp
+./mmfdevsoundadaptation.mmp

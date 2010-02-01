@@ -22,8 +22,8 @@
 */
 
 
-#include <SourceOrientationBase.h>
-#include <MSourceOrientationObserver.h>
+#include <sourceorientationbase.h>
+#include <msourceorientationobserver.h>
 
 class CMMFDevSound;
 

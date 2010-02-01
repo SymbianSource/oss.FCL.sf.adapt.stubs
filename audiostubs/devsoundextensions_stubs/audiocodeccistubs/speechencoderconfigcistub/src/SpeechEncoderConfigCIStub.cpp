@@ -18,7 +18,7 @@
 
 
 // INCLUDE FILES
-#include "SpeechEncoderConfigCI.h"
+#include "speechencoderconfigci.h"
 #include <e32debug.h>
 
 // EXTERNAL DATA STRUCTURES

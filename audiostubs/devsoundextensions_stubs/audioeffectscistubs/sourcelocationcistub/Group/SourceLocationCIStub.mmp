@@ -29,7 +29,7 @@ CAPABILITY CAP_GENERAL_DLL
 
 
 SOURCEPATH      ../src
-SOURCE          SourceLocationCIStub.cpp 
+SOURCE          sourcelocationcistub.cpp 
 
 USERINCLUDE     ../inc ../src
 

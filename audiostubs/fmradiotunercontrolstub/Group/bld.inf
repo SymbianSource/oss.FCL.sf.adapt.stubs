@@ -24,7 +24,7 @@ PRJ_EXPORTS
 
 
 PRJ_MMPFILES
-FMRadioTunerControlStub.mmp
+fmradiotunercontrolstub.mmp
 
 
 //  End of File 

@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-SourceDopplerCIStub.mmp
+sourcedopplercistub.mmp
 
 //  End of File  

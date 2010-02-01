@@ -13,7 +13,7 @@
 *
 * Description: Audio Stubs -  Project specification for Enahanced AAC+ decoder configuration
 *              : Custom Interface stub implementation.
-*  Version     : %version: bh1mmcf#7.1.7 %
+*  Version     : %version: bh1mmcf#7.1.6 %
 *
 */
 
@@ -27,7 +27,7 @@ CAPABILITY      CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          EAacPlusDecoderIntfcCIStub.cpp
+SOURCE          eaacplusdecoderintfccistub.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

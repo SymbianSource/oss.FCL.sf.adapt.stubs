@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <G711EncoderIntfc.h>
+#include <g711encoderintfc.h>
 
 // CONSTANTS
 
