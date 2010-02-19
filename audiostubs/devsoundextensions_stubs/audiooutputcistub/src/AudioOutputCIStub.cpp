@@ -17,10 +17,10 @@
 
 #include <e32svr.h>
 //#include "AudioOutputCustomInterfaceHandler.h"
-#include "audiooutputci.h"
+#include "AudioOutputCI.h"
 //#include "AudioOutputMessageTypes.h"
-#include <maudiooutputobserver.h>
-#include <audiooutput.h>
+#include <MAudioOutputObserver.h>
+#include <AudioOutput.h>
 
 EXPORT_C CAudioOutputCI* CAudioOutputCI::NewL(CMMFDevSound& aDevSound)
 	{

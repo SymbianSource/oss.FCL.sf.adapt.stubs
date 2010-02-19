@@ -17,8 +17,8 @@
 */
 
 
-#include <stereowideningbase.h>
-#include <mstereowideningobserver.h>
+#include <StereoWideningBase.h>
+#include <MStereoWideningObserver.h>
 
 class CMMFDevSound;
 

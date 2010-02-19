@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-g711decoderintfccistub.mmp
+G711DecoderIntfcCIStub.mmp
 
 //  End of File  

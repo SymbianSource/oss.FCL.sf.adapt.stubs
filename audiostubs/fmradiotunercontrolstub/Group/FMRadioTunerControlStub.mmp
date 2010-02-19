@@ -24,10 +24,10 @@ TARGETTYPE	DLL
 UID		0x1000008d 0x2000C0C0
 VENDORID	VID_DEFAULT
 
-SOURCEPATH	../src
-SOURCE          fmradiotunercontrolstub.cpp
+SOURCEPATH	../Src
+SOURCE          FMRadioTunerControlStub.cpp
 
-USERINCLUDE	../src
+USERINCLUDE	../Src
 
 OS_LAYER_SYSTEMINCLUDE
 

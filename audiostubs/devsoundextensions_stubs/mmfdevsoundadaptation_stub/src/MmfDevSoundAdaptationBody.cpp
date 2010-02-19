@@ -20,29 +20,29 @@
 #include <e32base.h>
 #include <mdaaudiotoneplayer.h>
 
-#include "g711decoderintfc.h"
-#include "g729decoderintfc.h"
-#include "ilbcdecoderintfc.h"
-#include "g711encoderintfc.h"
-#include "g729encoderintfc.h"
-#include "ilbcencoderintfc.h"
-#include "errorconcealmentintfc.h"
-#include "speechencoderconfig.h"
+#include "G711DecoderIntfc.h"
+#include "G729DecoderIntfc.h"
+#include "IlbcDecoderIntfc.h"
+#include "G711EncoderIntfc.h"
+#include "G729EncoderIntfc.h"
+#include "IlbcEncoderIntfc.h"
+#include "ErrorConcealmentIntfc.h"
+#include "SpeechEncoderConfig.h"
 
-#include "audioinputmessagetypes.h"
-#include "audiooutputmessagetypes.h"
+#include "AudioInputMessageTypes.h"
+#include "AudioOutputMessageTypes.h"
 //#include "AudioResourceMessageTypes.h"
 
-#include "audioinputci.h"
-#include "audiooutputci.h"
-#include "g711decoderintfcci.h"
-#include "g729decoderintfcci.h"
-#include "ilbcdecoderintfcci.h"
-#include "g711encoderintfcci.h"
-#include "g729encoderintfcci.h"
-#include "ilbcencoderintfcci.h"
-#include "errorconcealmentintfcci.h"
-#include "speechencoderconfigci.h"
+#include "AudioInputCI.h"
+#include "AudioOutputCI.h"
+#include "G711DecoderIntfcCI.h"
+#include "G729DecoderIntfcCI.h"
+#include "IlbcDecoderIntfcCI.h"
+#include "G711EncoderIntfcCI.h"
+#include "G729EncoderIntfcCI.h"
+#include "IlbcEncoderIntfcCI.h"
+#include "ErrorConcealmentIntfcCI.h"
+#include "SpeechEncoderConfigCI.h"
 
 //#include <AudioResourceCIStub.h>
 //#include <AudioEqualizerCI.h>
@@ -64,9 +64,9 @@
 //#include <AddedDevSoundControlCIStub.h>
 //#include <RestrictedAudioOutputCI.h>
 
-#include "mmfdevsoundadaptationbody.h"
-#include "mmfhwdevicestub.h"
-#include "toneplaycompletetimer.h"
+#include "MmfDevSoundAdaptationBody.h"
+#include "MmfHwDeviceStub.h"
+#include "TonePlayCompleteTimer.h"
 
 
 // CONSTANTS

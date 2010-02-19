@@ -19,7 +19,7 @@
 #ifdef _DEBUG
 #include <e32svr.h>
 #endif
-#include "distanceattenuationci.h"
+#include "DistanceAttenuationCI.h"
 
 
 EXPORT_C CDistanceAttenuationCI* CDistanceAttenuationCI::NewL(

@@ -22,6 +22,6 @@ PRJ_EXPORTS
 
 PRJ_MMPFILES
 
-aacdecoderconfigcistub.mmp
+AacDecoderConfigCIStub.mmp
 
 //  End of File  

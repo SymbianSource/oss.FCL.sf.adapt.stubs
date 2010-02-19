@@ -20,7 +20,7 @@
 
 
 // INCLUDE FILES
-#include "tonegenerator.h"
+#include "ToneGenerator.h"
 #include <e32math.h>
 #include <mda/common/resource.h>
 

@@ -22,7 +22,7 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-../custominterfaceproxyfactory_stub/group/custominterfaceproxyfactory_stub.mmp
-../messagehandlerfactory_stub/group/messagehandlerfactory_stub.mmp
+../CustomInterfaceProxyFactory_stub/group/CustomInterfaceProxyFactory_stub.mmp
+../MessageHandlerFactory_stub/group/MessageHandlerFactory_stub.mmp
 
 //  End of File  

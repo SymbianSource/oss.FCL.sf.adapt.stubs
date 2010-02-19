@@ -17,8 +17,8 @@
 */
 
 
-#include <environmentalreverbbase.h>
-#include <menvironmentalreverbobserver.h>
+#include <EnvironmentalReverbBase.h>
+#include <MEnvironmentalReverbObserver.h>
 
 class CMMFDevSound;
 

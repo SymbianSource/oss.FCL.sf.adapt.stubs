@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <sbcencoderintfc.h>
+#include <SbcEncoderIntfc.h>
 
 // CONSTANTS
 

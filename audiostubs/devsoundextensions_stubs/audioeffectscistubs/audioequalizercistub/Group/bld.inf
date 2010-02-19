@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-audioequalizercistub.mmp
+AudioEqualizerCIStub.mmp
 
 //  End of File  

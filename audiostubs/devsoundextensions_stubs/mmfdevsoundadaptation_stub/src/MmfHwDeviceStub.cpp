@@ -18,7 +18,7 @@
 
 
 // INCLUDE FILES
-#include "mmfhwdevicestub.h"
+#include "MmfHwDeviceStub.h"
 #ifdef _DEBUG
 #include "e32debug.h"
 

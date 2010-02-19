@@ -18,7 +18,7 @@
 
 
 // INCLUDE FILES
-#include "aacdecoderconfigci.h"
+#include "AacDecoderConfigCI.h"
 #include <e32debug.h>
 
 // EXTERNAL DATA STRUCTURES

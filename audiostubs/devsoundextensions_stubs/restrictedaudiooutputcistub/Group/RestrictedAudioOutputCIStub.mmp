@@ -12,7 +12,7 @@
 * Contributors:
 *
 * Description: Audio Stubs -  
-*  Version     : %version:  bh1mmcf#2.1.7 % 
+*  Version     : %version:  bh1mmcf#2.1.8 % 
 *
 */
 
@@ -29,7 +29,7 @@ CAPABILITY CAP_GENERAL_DLL
 
 
 SOURCEPATH      ../src
-SOURCE          restrictedaudiooutputcistub.cpp 
+SOURCE          RestrictedAudioOutputCIStub.cpp 
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

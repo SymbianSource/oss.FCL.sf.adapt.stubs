@@ -19,7 +19,7 @@
 #ifdef _DEBUG
 #include <e32svr.h>
 #endif
-#include "audioequalizerci.h"
+#include "AudioEqualizerCI.h"
 
 
 EXPORT_C CAudioEqualizerCI* CAudioEqualizerCI::NewL(

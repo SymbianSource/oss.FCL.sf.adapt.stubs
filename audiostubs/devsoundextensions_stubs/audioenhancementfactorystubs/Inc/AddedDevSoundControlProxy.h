@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <mmfcontrollerframework.h>
-#include "addeddevsoundcontrolci.h"
+#include "AddedDevSoundControlCI.h"
 
 // CONSTANTS
 

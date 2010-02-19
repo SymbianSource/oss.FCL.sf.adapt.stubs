@@ -19,7 +19,7 @@
 #define _AUDIOOUTPUTCI_H__
 
 #include <mmfcontrollerframework.h>
-#include "audiooutput.h"
+#include "AudioOutput.h"
 
 class CMMFDevSound;
 class CAudioOutputCustomInterfaceHandler;

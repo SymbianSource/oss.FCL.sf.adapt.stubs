@@ -22,8 +22,8 @@
 */
 
 
-#include <sourcelocationbase.h>
-#include <msourcelocationobserver.h>
+#include <SourceLocationBase.h>
+#include <MSourceLocationObserver.h>
 
 class CMMFDevSound;
 
