@@ -28,15 +28,7 @@ UID             0x1000008d 0x10207267
 CAPABILITY      CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
-#if defined( ARMCC )
-DEFFILE         ../eabi/ 
-#elif defined( WINSCW )
-DEFFILE         ../bwinscw/ 
-#elif defined( WINS )
-DEFFILE         ../bwins/ 
-#else
-DEFFILE         ../bmarm/ 
-#endif
+DEFFILE wlanhwinit.def
 
 SOURCEPATH      ../src 
 SOURCE          wlanhwinit.cpp
