@@ -18,7 +18,7 @@
 #ifndef MMFAUDIOSERVERFACTORYSTUB_H
 #define MMFAUDIOSERVERFACTORYSTUB_H
 
-#include <mmfaudiosvrservice.h>
+#include <a3f/mmfaudiosvrservice.h>
 
 // FORWARD DECLARATION
 class CTelephonyAudioRoutingManagerStub;
