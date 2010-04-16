@@ -28,7 +28,6 @@ VENDORID        VID_DEFAULT
 USERINCLUDE		../inc
 USERINCLUDE		../../inc
 OS_LAYER_SYSTEMINCLUDE
-MW_LAYER_SYSTEMINCLUDE
 SYSTEMINCLUDE	/epoc32/include/ecom
 SYSTEMINCLUDE	/epoc32/include/mmf/server
 SYSTEMINCLUDE	/epoc32/include/mmf/common 
@@ -43,7 +42,7 @@ LIBRARY			AudioInputCI.lib
 SOURCEPATH	  	../src
 
 SOURCE		  	cistubplugin.cpp
-SOURCE 			cistubpluginmain.cpp
+SOURCE 			cistubpluginMain.cpp
 
 SOURCEPATH	  	../data
 START RESOURCE 	cistubplugin.rss
