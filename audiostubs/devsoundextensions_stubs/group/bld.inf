@@ -52,9 +52,6 @@ PRJ_MMPFILES
 // Restricted Audio Output CI Stub
 #include "../restrictedaudiooutputcistub/Group/bld.inf"
 
-//CI stub plugin
-#include "../cistubplugin/group/bld.inf"
-
 PRJ_TESTMMPFILES
 
 PRJ_TESTEXPORTS
