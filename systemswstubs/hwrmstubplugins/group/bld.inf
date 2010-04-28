@@ -22,10 +22,8 @@ PRJ_PLATFORMS
 DEFAULT
 
 PRJ_EXPORTS
-../data/HWRMLightsPolicy.ini           /epoc32/RELEASE/winscw/UDEB/Z/private/101f7a02/HWRMLightsPolicy.ini
-../data/HWRMVibraPolicy.ini            /epoc32/RELEASE/winscw/UDEB/Z/private/101f7a02/HWRMVibraPolicy.ini
-../data/HWRMLightsPolicy.ini           /epoc32/RELEASE/winscw/UREL/Z/private/101f7a02/HWRMLightsPolicy.ini
-../data/HWRMVibraPolicy.ini            /epoc32/RELEASE/winscw/UREL/Z/private/101f7a02/HWRMVibraPolicy.ini
+../data/HWRMLightsPolicy.ini           Z:/private/101f7a02/HWRMLightsPolicy.ini
+../data/HWRMVibraPolicy.ini            Z:/private/101f7a02/HWRMVibraPolicy.ini
 ../rom/HWRMStubPlugins.iby             CORE_IBY_EXPORT_PATH(stubs,HWRMStubPlugins.iby)
 
 PRJ_MMPFILES
