@@ -18,7 +18,7 @@
 #ifndef TELEPHONYAUDIOROUTINGMANAGERSTUB_H
 #define TELEPHONYAUDIOROUTINGMANAGERSTUB_H
 
-#include <mtelephonyaudioroutingpolicyobserver.h>
+#include <MTelephonyAudioRoutingPolicyObserver.h>
 
 // FORWARD DECLARATIONS
 class CTelephonyAudioRoutingManager;

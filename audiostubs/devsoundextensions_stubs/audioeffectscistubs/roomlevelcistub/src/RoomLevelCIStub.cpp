@@ -19,7 +19,7 @@
 #ifdef _DEBUG
 #include <e32svr.h>
 #endif
-#include "roomlevelci.h"
+#include "RoomLevelCI.h"
 
 
 EXPORT_C CRoomLevelCI* CRoomLevelCI::NewL(

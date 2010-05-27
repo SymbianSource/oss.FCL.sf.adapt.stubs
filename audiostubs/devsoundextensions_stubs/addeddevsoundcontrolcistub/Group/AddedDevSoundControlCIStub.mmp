@@ -26,7 +26,7 @@ CAPABILITY      CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          addeddevsoundcontrolcistub.cpp
+SOURCE          AddedDevSoundControlCIStub.cpp
 
 USERINCLUDE     ../inc
 

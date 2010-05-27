@@ -22,8 +22,8 @@
 */
 
 
-#include <bassboostbase.h>
-#include <mbassboostobserver.h>
+#include <BassBoostBase.h>
+#include <MBassBoostObserver.h>
 
 class CMMFDevSound;
 

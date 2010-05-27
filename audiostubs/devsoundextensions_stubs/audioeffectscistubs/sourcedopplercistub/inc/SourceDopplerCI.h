@@ -22,8 +22,8 @@
 */
 
 
-#include <sourcedopplerbase.h>
-#include <msourcedopplerobserver.h>
+#include <SourceDopplerBase.h>
+#include <MSourceDopplerObserver.h>
 
 class CMMFDevSound;
 

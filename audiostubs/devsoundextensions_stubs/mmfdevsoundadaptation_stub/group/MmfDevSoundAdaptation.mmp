@@ -12,7 +12,7 @@
 * Contributors:
 *
 * Description: Audio Stubs -  Project specification file for MmfDevSoundAdaptation_Stub
-*  Version     : %version: bh1mmcf#31 %
+*  Version     : %version: bh1mmcf#32 %
 *
 */
 
@@ -27,17 +27,17 @@ UID             0x101F4549 0x10207ABC
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          mmfdevsoundadaptation.cpp
-SOURCE          mmfdevsoundadaptationbody.cpp
-SOURCE          mmfhwdevicestub.cpp
-SOURCE          tonegenerator.cpp
-SOURCE          devsoundutility.cpp
-SOURCE          toneplaycompletetimer.cpp
+SOURCE          MmfDevSoundAdaptation.cpp
+SOURCE          MmfDevSoundAdaptationBody.cpp
+SOURCE          MmfHwDeviceStub.cpp
+SOURCE          ToneGenerator.cpp
+SOURCE          DevSoundUtility.cpp
+SOURCE          TonePlayCompleteTimer.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc
 
-START RESOURCE  fixedsequence.rss
+START RESOURCE  FixedSequence.rss
 TARGETPATH      Resource/DevSound
 HEADER
 END
@@ -65,7 +65,7 @@ LIBRARY         IlbcEncoderIntfcCI.lib
 LIBRARY         ErrorConcealmentIntfcCI.lib
 LIBRARY         SpeechEncoderConfigCI.lib
 
-deffile         mmfdevsoundadaptation.def
+deffile         MmfDevSoundAdaptation.def
 nostrictdef
 
 // End of File

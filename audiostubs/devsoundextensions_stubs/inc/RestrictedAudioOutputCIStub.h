@@ -24,8 +24,8 @@
 #ifndef RESTRICTEDAUDIOOUTPUTCI_H
 #define RESTRICTEDAUDIOOUTPUTCI_H
 
-#include <restrictedaudiooutput.h>
-#include <restrictedaudiooutputmessagetypes.h>
+#include <RestrictedAudioOutput.h>
+#include <RestrictedAudioOutputMessageTypes.h>
 #
 class CMMFDevSound;
 

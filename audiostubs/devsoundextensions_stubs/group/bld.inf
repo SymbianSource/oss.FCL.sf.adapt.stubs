@@ -31,14 +31,14 @@ PRJ_MMPFILES
 #include "../mmfaudioserverfactorystub/group/bld.inf"
 
 // Added DevSoundControl CI Stub
-#include "../addeddevsoundcontrolcistub/group/bld.inf"
+#include "../addeddevsoundcontrolcistub/Group/bld.inf"
 
 // Audio Enhancement Factory Stubs
 #include "../audioenhancementfactorystubs/group/bld.inf"
 
 // Audio Routing CI Stub
-#include "../audioinputcistub/group/bld.inf"
-#include "../audiooutputcistub/group/bld.inf"
+#include "../audioinputcistub/Group/bld.inf"
+#include "../audiooutputcistub/Group/bld.inf"
 
 // Audio Effect CI Stub
 #include "../audioeffectscistubs/group/bld.inf"
@@ -50,7 +50,7 @@ PRJ_MMPFILES
 //#include "../audiovisualizationstub/Group/bld.inf"
 
 // Restricted Audio Output CI Stub
-#include "../restrictedaudiooutputcistub/group/bld.inf"
+#include "../restrictedaudiooutputcistub/Group/bld.inf"
 
 //CI stub plugin
 #include "../cistubplugin/group/bld.inf"

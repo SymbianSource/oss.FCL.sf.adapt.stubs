@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <aacdecoderconfig.h>
+#include <AacDecoderConfig.h>
 
 // CONSTANTS
 
