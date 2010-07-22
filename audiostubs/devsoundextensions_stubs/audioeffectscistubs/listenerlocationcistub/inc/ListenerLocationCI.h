@@ -22,8 +22,8 @@
 */
 
 
-#include <listenerlocationbase.h>
-#include <mlistenerlocationobserver.h>
+#include <ListenerLocationBase.h>
+#include <MListenerLocationObserver.h>
 
 class CMMFDevSound;
 

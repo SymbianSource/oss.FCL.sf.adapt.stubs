@@ -16,7 +16,7 @@
 */
 
 #include <e32svr.h>
-#include "audioinputci.h"
+#include "AudioInputCI.h"
 
 
 EXPORT_C CAudioInputCI* CAudioInputCI::NewL(CMMFDevSound& aDevSound)

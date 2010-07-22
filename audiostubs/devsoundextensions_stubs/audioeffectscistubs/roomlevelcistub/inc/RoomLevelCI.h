@@ -17,8 +17,8 @@
 */
 
 
-#include <roomlevelbase.h>
-#include <mroomlevelobserver.h>
+#include <RoomLevelBase.h>
+#include <MRoomLevelObserver.h>
 
 class CMMFDevSound;
 

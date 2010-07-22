@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <speechencoderconfig.h>
+#include <SpeechEncoderConfig.h>
 
 // CONSTANTS
 

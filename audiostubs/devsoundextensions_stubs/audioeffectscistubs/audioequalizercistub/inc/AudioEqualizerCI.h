@@ -17,8 +17,8 @@
 */
 
 
-#include <audioequalizerbase.h>
-#include <maudioequalizerobserver.h>
+#include <AudioEqualizerBase.h>
+#include <MAudioEqualizerObserver.h>
 
 class CMMFDevSound;
 

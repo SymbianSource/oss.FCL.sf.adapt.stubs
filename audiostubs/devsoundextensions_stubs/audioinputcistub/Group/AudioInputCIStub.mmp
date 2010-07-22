@@ -12,7 +12,7 @@
 * Contributors:
 *
 * Description: Audio Stubs -  Project definition file for project AudioInputCIStub
-*  Version     : %version: bh1mmcf#16 % 
+*  Version     : %version: bh1mmcf#17 % 
 *
 */
 
@@ -26,7 +26,7 @@ CAPABILITY CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          audioinputcistub.cpp
+SOURCE          AudioInputCIStub.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

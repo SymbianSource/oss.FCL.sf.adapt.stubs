@@ -18,7 +18,7 @@
 
 
 // INCLUDE FILES
-#include "errorconcealmentintfcci.h"
+#include "ErrorConcealmentIntfcCI.h"
 #include <e32debug.h>
 
 // EXTERNAL DATA STRUCTURES

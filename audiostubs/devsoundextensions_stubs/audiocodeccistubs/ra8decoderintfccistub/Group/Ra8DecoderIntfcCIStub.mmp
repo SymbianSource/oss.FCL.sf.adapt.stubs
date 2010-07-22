@@ -13,7 +13,7 @@
 *
 * Description: Audio Stubs -  Project specification for RA8 decoder configuration custom
 *              : interface stub implementation.
-*  Version     : %version: bh1mmcf#7 %
+*  Version     : %version: bh1mmcf#8 %
 *
 */
 
@@ -28,7 +28,7 @@ CAPABILITY      CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
-SOURCE          ra8decoderintfccistub.cpp
+SOURCE          Ra8DecoderIntfcCIStub.cpp
 
 USERINCLUDE     ../inc
 USERINCLUDE     ../../inc

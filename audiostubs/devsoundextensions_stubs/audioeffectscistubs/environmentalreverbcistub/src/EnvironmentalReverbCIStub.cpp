@@ -19,7 +19,7 @@
 #ifdef _DEBUG
 #include <e32svr.h>
 #endif
-#include "environmentalreverbci.h"
+#include "EnvironmentalReverbCI.h"
 
 
 EXPORT_C CEnvironmentalReverbCI* CEnvironmentalReverbCI::NewL(

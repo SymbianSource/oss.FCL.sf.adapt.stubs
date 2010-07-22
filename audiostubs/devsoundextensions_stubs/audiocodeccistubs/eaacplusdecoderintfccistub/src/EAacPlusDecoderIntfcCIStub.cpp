@@ -18,7 +18,7 @@
 
 // INCLUDE FILES
 #include <e32debug.h>
-#include "eaacplusdecoderintfcci.h"
+#include "EAacPlusDecoderIntfcCI.h"
 
 // EXTERNAL DATA STRUCTURES
 

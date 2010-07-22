@@ -17,8 +17,8 @@
 */
 
 
-#include <distanceattenuationbase.h>
-#include <mdistanceattenuationobserver.h>
+#include <DistanceAttenuationBase.h>
+#include <MDistanceAttenuationObserver.h>
 
 class CMMFDevSound;
 

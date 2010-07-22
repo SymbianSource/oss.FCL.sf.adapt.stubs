@@ -18,8 +18,8 @@
 
 
 // INCLUDE FILES
-#include "mmfdevsoundadaptationbody.h"
-#include "toneplaycompletetimer.h"
+#include "MmfDevSoundAdaptationBody.h"
+#include "TonePlayCompleteTimer.h"
 
 #ifdef _DEBUG
 #include "e32debug.h"

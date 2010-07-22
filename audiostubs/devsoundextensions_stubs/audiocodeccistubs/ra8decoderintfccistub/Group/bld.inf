@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-ra8decoderintfccistub.mmp
+Ra8DecoderIntfcCIStub.mmp
 
 //  End of File

@@ -21,7 +21,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <ra8custominterface.h>
+#include <Ra8CustomInterface.h>
 
 // CONSTANTS
 

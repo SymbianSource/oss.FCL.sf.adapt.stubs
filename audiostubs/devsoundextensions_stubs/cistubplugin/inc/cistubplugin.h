@@ -26,11 +26,11 @@
 #include <e32std.h>	 // TBuf
 #include <e32debug.h>
 #include <ecom.h>
-#include "restrictedaudiooutputcistub.h"
-#include "audiooutputci.h"
-#include "audioinputci.h"
-#include "audiooutputmessagetypes.h"
-#include "audioinputmessagetypes.h"
+#include "RestrictedAudioOutputCIStub.h"
+#include "AudioOutputCI.h"
+#include "AudioInputCI.h"
+#include "AudioOutputMessageTypes.h"
+#include "AudioInputMessageTypes.h"
 
 class MyMCustomInterface
     {

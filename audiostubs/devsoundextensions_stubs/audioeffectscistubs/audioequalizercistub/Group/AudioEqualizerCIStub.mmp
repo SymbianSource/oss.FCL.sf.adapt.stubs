@@ -29,7 +29,7 @@ VENDORID 	VID_DEFAULT
 
 
 SOURCEPATH      ../src
-SOURCE          audioequalizercistub.cpp 
+SOURCE          AudioEqualizerCIStub.cpp 
 
 USERINCLUDE     ../inc ../src
 

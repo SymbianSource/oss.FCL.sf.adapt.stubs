@@ -18,7 +18,7 @@
 
 // INCLUDE FILES
 #include <e32debug.h>
-#include "addeddevsoundcontrolcistub.h"
+#include "AddedDevSoundControlCIStub.h"
 
 // EXTERNAL DATA STRUCTURES
 

@@ -18,7 +18,7 @@
 
 
 // INCLUDE FILES
-#include "g729decoderintfcci.h"
+#include "G729DecoderIntfcCI.h"
 #include <e32debug.h>
 
 // EXTERNAL DATA STRUCTURES
