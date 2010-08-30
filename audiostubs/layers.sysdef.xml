@@ -3,7 +3,7 @@
   <!ENTITY layer_real_source_path "sf/adaptation/stubs/audiostubs" >
 ]> 
 
-<SystemDefinition name="avdomain" schema="1.4.0">
+<SystemDefinition name="audiostubs" schema="1.4.0">
 	<systemModel>
   <!-- Common file for prebuild layers-->
   	<layer name="stubs_layer">

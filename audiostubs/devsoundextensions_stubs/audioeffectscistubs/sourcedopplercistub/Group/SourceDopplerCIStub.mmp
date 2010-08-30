@@ -41,9 +41,9 @@ SYSTEMINCLUDE   /epoc32/include/mmf/server
 
 LIBRARY         euser.lib
 LIBRARY		EffectBase.lib
-LIBRARY		DopplerBase.lib
+LIBRARY		Dopplerbase.lib
 LIBRARY		SourceDopplerEffect.lib
-LIBRARY		MMFDevSound.lib
+LIBRARY		mmfdevsound.lib
 
 // Users link against the non-stub name, so that rebuild is not necessary
 EXPORTLIBRARY	SourceDopplerCI.lib

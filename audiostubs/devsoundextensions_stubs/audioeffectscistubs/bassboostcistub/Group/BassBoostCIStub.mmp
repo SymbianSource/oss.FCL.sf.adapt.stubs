@@ -40,7 +40,7 @@ SYSTEMINCLUDE   /epoc32/include/mmf/server
 LIBRARY         euser.lib
 LIBRARY		EffectBase.lib
 LIBRARY		BassBoostEffect.lib
-LIBRARY		MMFDevSound.lib
+LIBRARY		mmfdevsound.lib
 
 // Users link against the non-stub name, so that rebuild is not necessary
 EXPORTLIBRARY	BassBoostCI.lib

@@ -41,7 +41,7 @@ LIBRARY         euser.lib
 LIBRARY		EffectBase.lib
 LIBRARY		LocationBase.lib
 LIBRARY		SourceLocationEffect.lib
-LIBRARY		MMFDevSound.lib
+LIBRARY		mmfdevsound.lib
 
 // Users link against the non-stub name, so that rebuild is not necessary
 EXPORTLIBRARY	SourceLocationCI.lib
