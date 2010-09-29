@@ -19,7 +19,7 @@
 #include <platform_paths.hrh>
 
 PRJ_PLATFORMS
-DEFAULT
+WINSCW
 
 PRJ_EXPORTS
 ../rom/startupadaptationstub.iby    CORE_IBY_EXPORT_PATH(stubs,startupadaptationstub.iby)

@@ -19,7 +19,7 @@
 #include <platform_paths.hrh>
 
 PRJ_PLATFORMS
-DEFAULT
+WINSCW
 
 PRJ_EXPORTS
 ../rom/ssyreference.iby CORE_OS_LAYER_IBY_EXPORT_PATH(ssyreference.iby)

@@ -17,7 +17,7 @@
 
 
 PRJ_PLATFORMS
-DEFAULT
+WINSCW
 
 #include <platform_paths.hrh>
 

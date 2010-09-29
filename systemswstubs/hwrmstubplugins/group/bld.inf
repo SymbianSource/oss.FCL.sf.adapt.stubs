@@ -19,7 +19,7 @@
 #include <platform_paths.hrh>
 
 PRJ_PLATFORMS
-DEFAULT
+WINSCW
 
 PRJ_EXPORTS
 ../data/HWRMLightsPolicy.ini           /epoc32/RELEASE/winscw/UDEB/Z/private/101f7a02/HWRMLightsPolicy.ini

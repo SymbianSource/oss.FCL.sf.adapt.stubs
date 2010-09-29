@@ -19,7 +19,7 @@
 #include <platform_paths.hrh>
 
 PRJ_PLATFORMS
-DEFAULT
+WINSCW
 
 PRJ_EXPORTS
 ../inc/sensrvproprietaryproperties.h  OS_LAYER_PLATFORM_EXPORT_PATH(sensrvproprietaryproperties.h)
