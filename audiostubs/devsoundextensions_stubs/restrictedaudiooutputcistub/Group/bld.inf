@@ -22,6 +22,6 @@ DEFAULT
 PRJ_EXPORTS
 
 PRJ_MMPFILES
-//RestrictedAudioOutputCIStub.mmp
+RestrictedAudioOutputCIStub.mmp
 
 //  End of File  
