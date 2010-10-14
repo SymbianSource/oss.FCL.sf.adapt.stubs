@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemDefinition schema="3.0.0">
+  <package id="posmsgpluginreferenceimpl" name="POS Message Plugin Reference Implementation">
+    <collection id="posmsgpluginreferenceimpl_info" name="POS Message Plugin Reference Implementation Info">
+      <component id="posmsgpluginreferenceimpl_build" name="POS Message Plugin Reference Implementation Build" class="plugin" filter="s60,sf_build">
+        <unit bldFile="group"/>
+      </component>
+    </collection>
+  </package>
+</SystemDefinition>
