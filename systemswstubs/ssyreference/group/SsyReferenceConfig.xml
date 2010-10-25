@@ -148,11 +148,20 @@
                     <!-- Channel item property, unit property for common (item index = -1), see KSensrvPropIdChannelUnit  -->
                 </PropertyItem>
                 </Properties>
-          <ChannelData StartIntervalMs="1000">
-            <ChannelDataItem DataTypeId="0x1020507E" count="3" IntervalMs="5000">
-              <SsyRefChannelDataAxis XAxis="1" YAxis="1" ZAxis="50" ></SsyRefChannelDataAxis>
+
+          <!-- DSG: ChannelData with StartIntervalMs=-1 indicates we're using the PSListener -->
+          <!-- DSG: The published values are drawn from the enum TEmulatorFlip -->
+          <ChannelData StartIntervalMs="-1">
+            <!-- DSG: This ChannelDataItem is activated when the published value is 0 (EEmulatorFlipRestore) i.e. DisplayUp -->
+            <ChannelDataItem DataTypeId="0x1020507E" count="4" IntervalMs="0">
+              <SsyRefChannelDataAxis XAxis="22" YAxis="49" ZAxis="55" ></SsyRefChannelDataAxis>
+            </ChannelDataItem>
+            <!-- DSG: This ChannelDataItem is activated when the published value is 2 (EEmulatorFlipLeft) i.e. 90CCW or RightUp -->
+            <ChannelDataItem DataTypeId="0x1020507E" count="4" IntervalMs="2">
+              <SsyRefChannelDataAxis XAxis="50" YAxis="32" ZAxis="44" ></SsyRefChannelDataAxis>
             </ChannelDataItem>
         </ChannelData>
+
         </ChannelItem>          
         <ChannelItem
             ChannelId="3"

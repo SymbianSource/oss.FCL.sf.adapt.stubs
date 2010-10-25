@@ -47,8 +47,6 @@ TARGET          ASYReferencePlugin.rsc
 END
 
 LIBRARY         euser.lib 
-LIBRARY         ASYProxy.lib
-LIBRARY         AccPolicy.lib
 LIBRARY         accclient.lib
 LIBRARY         acccontrol.lib
 LIBRARY         accpolicy.lib

@@ -22,6 +22,11 @@
 #include <e32base.h>
 #include "ssyreferenceconfig.h"
 
+#define	DSG
+#ifdef	DSG
+#include "ssypslistener.h"
+#endif	// DSG
+
 // FORWARD DECLARATIONS
 class CSsyReferenceChannel;
 
@@ -33,6 +38,9 @@ class CSsyReferenceChannel;
  *  @since S60 5.0
  */
 class CSsyReferenceCmdHandler : public CActive
+#ifdef	DSG
+								, public MSsyPsObserver
+#endif	// DSG
     {
 
 public:
@@ -89,6 +97,7 @@ public:
      */
     TInt GenerateChannelDataItem();
 
+
 private:
 
     /**
@@ -141,6 +150,14 @@ private: // data
      */
     CPeriodic* iTimer;
 
+#ifdef	DSG
+	CSsyPsListener* iPsListener;
+	void SendData();
+	TInt GenerateChannelStateItem();
+	static TInt StateItemCallback(TAny* aThis);
+	void PsValueSet(TUid aCategory, TUint aKey, TInt aValue);
+	static TInt FakeStateCallback(TAny* aThis);
+#endif	// DSG
     };
 
 #endif // SSYREFERENCECMDHANDLER_H

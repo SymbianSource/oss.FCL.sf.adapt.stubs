@@ -22,6 +22,13 @@
 #include "ssyreferencechannel.h"
 #include "ssyreferencetrace.h"
 
+#ifdef	DSG
+#include <u32exec.h>
+#include <e32uid.h>
+#define	SystemCategory	KUidSystemCategory
+#define	EmulatorOrientationKey	KSystemEmulatorOrientationKey
+#endif	// DSG
+
 // ======== CONSTANTS ========
 const TInt KSsyRefShortDelay = 100; 
 
@@ -84,6 +91,15 @@ CSsyReferenceCmdHandler::~CSsyReferenceCmdHandler()
         iMessage = NULL;
         }
 
+#ifdef	DSG
+    if ( iPsListener )
+        {
+        iPsListener->Cancel();
+        delete iPsListener;
+        iPsListener = NULL;
+        }
+#endif	// DSG
+
     if ( iTimer )
         {
         iTimer->Cancel();
@@ -112,7 +128,16 @@ TInt CSsyReferenceCmdHandler::ProcessCommand( TSsyReferenceMsg aMessage )
             delete iTimer;
             iTimer = NULL;
             }
-        
+
+#ifdef	DSG
+		if ( iPsListener )
+			{
+			iPsListener->Cancel();
+			delete iPsListener;
+			iPsListener = NULL;
+			}
+#endif	// DSG
+
         iDataItemArray.Reset();
         iDataItemPtr = 0;
         err = KErrNone;
@@ -240,9 +265,31 @@ void CSsyReferenceCmdHandler::RunL()
                     // Reset pointer
                     iDataItemPtr = 0;
 
+
                     // Start timer and continue processing in callback function
                     iTimer = CPeriodic::NewL( EPriorityNormal );
+#ifndef	DSG
                     iTimer->Start( startInterval * 1000, 0, TCallBack( DataItemCallback, this ) );
+#else
+					User::JustInTime();
+                    if (startInterval > 0)
+                    	{
+						iTimer->Start(startInterval * 1000, 0, TCallBack(DataItemCallback, this));
+						}
+					else
+						{
+						// Register to receive property updates ...
+						if (!iPsListener)
+							iPsListener = CSsyPsListener::NewL(*this, SystemCategory, EmulatorOrientationKey);
+						if (iPsListener)
+							{
+							// Respond to the inital value of the property, if it exists
+							static TInt initialValue;
+							if (RProperty::Get(SystemCategory, EmulatorOrientationKey, initialValue) == KErrNone)
+								PsValueSet(SystemCategory, EmulatorOrientationKey, initialValue);
+							}
+						}
+#endif	// DSG
                     }
                 break;
                 }
@@ -358,5 +405,100 @@ TInt CSsyReferenceCmdHandler::GenerateChannelDataItem()
     COMPONENT_TRACE( ( _L( "SSY Reference Plugin - CSsyReferenceCmdHandler::GenerateChannelDataItem() - return" ) ) );
     return KErrNone;
     }
+
+#ifdef	DSG
+
+void CSsyReferenceCmdHandler::SendData()
+	{
+	if (iMessage)
+		{
+		TSsyRefChannelDataBase dataItem = iDataItemArray[iDataItemPtr];
+
+		// Set timestamp to data item
+		TTime time;
+		time.HomeTime();
+		dataItem.SetTimestamp(time);
+
+		// Add data item to message
+		iMessage->SetDataItem(&dataItem);
+
+		// Send response
+		iMessage->SetFunction(ESsyReferenceDataItemReceived);
+		iSsyChannel.ProcessResponse(iMessage);
+		}
+	}
+
+// ---------------------------------------------------------------------------
+// CSsyReferenceCmdHandler::GenerateChannelStateItem
+// ---------------------------------------------------------------------------
+//
+TInt CSsyReferenceCmdHandler::GenerateChannelStateItem()
+    {
+    COMPONENT_TRACE( ( _L( "SSY Reference Plugin - CSsyReferenceCmdHandler::GenerateChannelStateItem()" ) ) );
+
+	SendData();
+
+	// If we wrap around, or the 'Interval' (i.e. state number) of the next entry
+	// differs from that of the current one, we've finished this sequence of callbacks
+	TInt newIndex = iDataItemPtr+1;
+    if (newIndex >= iDataItemArray.Count())
+		newIndex = 0;
+	TInt oldState = iDataItemArray[iDataItemPtr].Interval();
+	TInt newState = iDataItemArray[newIndex].Interval();
+	if (newState == oldState && newIndex != 0)
+	    {
+        iDataItemPtr = newIndex;
+	    }
+	else
+	    {
+        iTimer->Cancel();
+        
+  	    }
+	
+    COMPONENT_TRACE( ( _L( "SSY Reference Plugin - CSsyReferenceCmdHandler::GenerateChannelStateItem() - return" ) ) );
+    return KErrNone;
+    }
+
+// ---------------------------------------------------------------------------
+// CSsyReferenceCmdHandler::StateItemCallback
+// ---------------------------------------------------------------------------
+//
+TInt CSsyReferenceCmdHandler::StateItemCallback( TAny* aThis )
+    {
+    COMPONENT_TRACE( ( _L( "SSY Reference Plugin - CSsyReferenceCmdHandler::StateItemCallback()" ) ) );
+    return static_cast<CSsyReferenceCmdHandler*>( aThis )->GenerateChannelStateItem();
+    }
+
+// ---------------------------------------------------------------------------
+// CSsyReferenceCmdHandler::PsValueSet
+// ---------------------------------------------------------------------------
+//
+void CSsyReferenceCmdHandler::PsValueSet(TUid aCategory, TUint aKey, TInt aValue)
+    {
+	TUid c = aCategory;
+	TInt k = aKey;
+    COMPONENT_TRACE( ( _L( "SSY Reference Plugin - CSsyReferenceCmdHandler::PsValueSet(%x, %x, %d)" ), aCategory, aKey, aValue ) );
+
+	// Find where to start ...
+	for (TInt index = 0; index < iDataItemArray.Count(); ++index)
+		{
+		TSsyRefChannelDataBase& dataItem = iDataItemArray[index];
+		if (dataItem.Interval() == aValue)
+			{
+			// The 'Interval' (i.e. state number) matches the property value.
+			// Set the start index and start the timer callback running
+			iDataItemPtr = index;
+			iTimer->Cancel();
+			iTimer->Start(10, 10000, TCallBack(StateItemCallback, this));
+			break;
+			}
+		}
+
+    COMPONENT_TRACE( ( _L( "SSY Reference Plugin - CSsyReferenceCmdHandler::PsValueSet() - return" ) ) );
+    }
+
+#include "ssypslistener.cpp"
+
+#endif	// DSG
 
 // End of file
